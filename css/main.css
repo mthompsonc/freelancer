@@ -1,0 +1,308 @@
+body {
+	margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+
+/*
+ * Estilos de tu proyecto
+ */
+
+nav {
+  background-color: #2B3F4F;
+  height: 108px;
+  width: auto;
+	top: auto;
+	color: #FFFFFF;
+}
+
+.button1{
+	font-size: 32px;
+	font-family: "Montserrat";
+	text-decoration: none;
+	font-weight: 700;
+	width: 320px;
+	height: 45px;
+	margin-left: 78px;
+	margin-top: 34px;
+	float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.rightbuttons{
+	margin-top: 43px;
+	margin-right: 86px;
+	float:right;
+}
+
+.button{
+	font-size: 16.5px;
+	font-family: "Montserrat";
+	font-weight: 700;
+	height: 20px;
+	padding-left: 12px;
+	text-decoration: none;
+	letter-spacing: 0.7px;
+}
+
+nav.clear {
+    clear: both;
+}
+
+.container{
+	text-align: center;
+	padding: 20px;
+	height: 685;
+}
+
+.start{
+	background-color: #00BC9E;
+	color: #FFFFFF;
+	width: auto;
+	height: 685px;
+}
+
+.imgman{
+	width: 256px;
+	height: 256px;
+	background-size: 100%;
+	background-image: url(../assets/images/profile.png);
+	display: inline-block;
+	margin-top: 72px;
+}
+
+.stitle{
+	font-family: "Montserrat";
+	font-size: 76px;
+	font-weight: 700;
+	margin-top: 27px;
+	margin-bottom: 20px;
+}
+
+.hrstar{
+	width: 270px;
+	height: 40px;
+	padding-left: 477px;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 0px
+}
+
+.line1{
+	height: 5px;
+	width: 103px;
+	border: none;
+	background-color: #FFFFFF;
+	display: inline-block;
+	margin-right: 6px;
+	top:10px;
+}
+
+.fa-star {
+	font-size: 34px;
+	display: inline-block;
+}
+
+.line2{
+	height: 5px;
+	width: 103px;
+	border: none;
+	background-color: #FFFFFF;
+	display: inline-block;
+	margin-left: 6px;
+}
+
+.description{
+	font-size: 28px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.title2{
+	font-size:48px;
+	color: #212529;
+	font-family: "Montserrat";
+	font-weight: 700;
+	margin: 110px 0px 10px 0px;
+}
+
+.portfolio{
+	background-color: #FFFFFF;
+	width: 1264px;
+	height: 884px;
+}
+
+.hrstar2{
+	color: #2B3F4F;
+	margin-top: 10px;
+}
+
+.line3{
+	height: 5px;
+	width: 103px;
+	border: none;
+	background-color: #2B3F4F;
+	display: inline-block;
+	margin-right: 6px;
+}
+
+.line4{
+	height: 5px;
+	width: 103px;
+	border: none;
+	background-color: #2B3F4F;
+	display: inline-block;
+	margin-left: 6px;
+}
+
+.pimgs{
+	height: 570px;
+margin-left:40px;
+}
+
+.pimg1{
+	width: 350px;
+	height: 253px;
+	background-size: 100%;
+	background-image: url(../assets/images/portfolio/cabin.png);
+	float: left;
+	margin: 15px;
+}
+
+.pimg2{
+	width: 350px;
+	height: 253px;
+	background-size: 100%;
+	background-image: url(../assets/images/portfolio/cake.png);
+	float: left;
+	margin: 15px;
+}
+
+.pimg3{
+	width: 350px;
+	height: 253px;
+	background-size: 100%;
+	background-image: url(../assets/images/portfolio/circus.png);
+	float: left;
+	margin: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.pimg4{
+	width: 350px;
+	height: 253px;
+	background-size: 100%;
+	background-image: url(../assets/images/portfolio/game.png);
+	float: left;
+	margin: 15px;
+}
+
+.pimg5{
+	width: 350px;
+	height: 253px;
+	background-size: 100%;
+	background-image: url(../assets/images/portfolio/safe.png);
+	float: left;
+	margin: 15px;
+}
+
+.pimg6{
+	width: 350px;
+	height: 253px;
+	background-size: 100%;
+	background-image: url(../assets/images/portfolio/submarine.png);
+	float: left;
+	margin: 15px;
+}
+
+.about{
+	height: 578px;
+	width: 1264px;
+	background-color: #00BC9E;
+	color: #FFFFFF;
+}
+
+.title{
+	padding-top: 50px;
+	font-family: "Montserrat";
+	font-size: 48px;
+	font-weight: 900;
+	margin-bottom: 0px;
+}
+
+.hrstar1{
+	color: #FFFFFF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.aboutxt{
+	font-size: 15px;
+	width: 100%;
+	height: 100%;
+	line-height: 30px;
+	font-family: "Lato";
+	font-size: 20px;
+	margin-top: 16px;
+	margin-bottom: 20px;
+
+}
+
+.p1{
+	width: 387px;
+	height: 175px;
+	display: inline-block;
+	text-align: left;
+	padding-right: 5px
+}
+
+.p2{
+	width: 371px;
+	height: 175px;
+	padding-left: 20px;
+	display: inline-block;
+	text-align: left;
+}
+
+.boton2{
+	width: 215px;
+	height: 30px;
+	font-family: "Lato";
+	font-size: 20px;
+	border-radius: 3px;
+	display: inline-block;
+	border: 2px solid #FFFFFF;
+	padding: 10px 5px;
+
+}
+
+.contact{
+	height: 937px;
+	width: 1264px;
+}
+
+footer{
+	height: 543px;
+	width: 1264px;
+	background-color: #2B3F4F;
+	color: #FFFFFF;
+}
+
+.circle{
+	width: 52px;
+	height: 52px;
+	border: 2px solid #FFFFFF;
+	-moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.rs{
+	font-size: 22px;
+}
