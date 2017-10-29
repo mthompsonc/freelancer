@@ -1,6 +1,6 @@
 # Freelancer
 
-** Este es un proyecto de maquetado web con HTML & CSS. **
+**Este es un proyecto de maquetado web con HTML & CSS.**
 
 ***
 
