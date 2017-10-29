@@ -1,80 +1,36 @@
 # Freelancer
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
+** Este es un proyecto de maquetado web con HTML & CSS. **
 
 ***
 
-Para completar este reto, hemos creado este repositorio boilerplate (plantilla
-inicial) con todos los recursos que necesitas. Esto incluye imágenes y
-estructura de carpetas y archivos donde colocarás tu código.
+#### Trabajo realizado por:
+ "María Paz Thompson" <m.paz.thompson@gmail.com>
 
-## Flujo de trabajo
+*29 de Octubre 2017*
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
+***
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
+### Pseudo-Código.
 
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/freelancer.git
-   ```
+ - Head está compuesto por el título del proyecto y enlaces a: *fontawesome, stylesheet y google fonts*.
 
-## Objetivo
+ - Body, cuenta con etiquetas nav, section y footer, que anidan el contenido de cada sección:
 
-El reto consiste en replicar el sitio de **Freelancer**, este será el resultado
-a lograr:
+      1. **Nav:**  está creado con una lista desordenada, donde 3 de los 4 elementos están contenidos dentro de un *div*, para poder situarlos a la derecha del nav.
 
-![Freelancer Website](docs/fullpage.png)
+      2. **Section class= "start" :** anida un *div* que hace de "contenedor", este contiene una imagen *(div imgman)*, que está en la parte superior, luego un título, un ícono que tiene lineas a los costados y al final, un texto descriptivo (*div description*).
 
-## Consideraciones
+      3. **Section class= "portfolio" :** contiene un *div container*, el cual anida un *título H1*, luego el *div* que contiene el ícono estrella con líneas en ambos costados y 6 cajas *div* para imágenes de fondo (insertadas como background en CSS).
 
-* Encontrarás un archivo base `index.html` en el cual deberás escribir la
-  estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
+      4. **Section class= "about" :** abarca un *div container*, el cual anida un *título H1*, luego el pie de título es una estrella con líneas a ambos costados. Le sigue un *div* que contiene dos párrafos que se convierten en dos columnas centradas y al último un botón que ofrece descargar el tema.
 
-* En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
-  estilos necesarios para tu proyecto.
+      5. **Section class= "contact":** incluye un *div* container que anida un *título H1*, le sigue el mismo pie de título de las secciones anteriores. Luego un *div form*, contiene 3 *inputs* que piden nombre, e-mail y teléfono de contacto, abajo sigue un *div* con *textarea* para ingresar el mensaje de contacto y el botón "Send" para enviar el mensaje.
 
-* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
-  encontrarás todas las imágenes necesarias para completar tu proyecto.
+      6. **Footer:** incluye 4 *divs* (envueltos en un *div container*), para agrupar los datos del footer de la página web,  el primero cuenta con un *título H4* con la dirección de la empresa. El segundo, con un *título H4* y sus redes sociales enlazadas a través de los íconos de "*font awesome"* envueltos en un círculo. El tercer *div*, contiene un *título H4*, con la información del creador de Start Bootstrap. Finalmente, un cuarto *div* que contiene la información de copyrights.
 
-* Deberás **actualizar el archivo `README.md`** explicando el contenido de tu
-  repositorio.
+Cabe mencionar que cada etiqueta HTML, tiene una clase que está modificada mediante una hoja de estilo CSS.
 
-* Esta web utiliza 2 tipografías: `Montserrat` y `Lato`.
+***
 
-* La paleta de colores puedes obtenerla inspeccionado el sitio original, pero
-  para ganar tiempo, puedes usar los siguientes: `#2c3e50`, `#18bc9c`,
-  `#212529`.
-
-* Los íconos de redes sociales puedes obtenerlos de [Font Awesome](http://fontawesome.io/).
-
-* Para este reto, encontrarás ciertas cosas que probablemente aun no has visto
-  en clase (formularios). No te preocupes, estamos seguros que lo afrontarás con
-  éxito, de igual forma aquí unos tips:
-
-  - Para el formulario, revisa las etiquetas como `form`, `input`, `button`.
-
-* El subrayado que incluye la estrella en las diversas secciones del sitio, en
-  la web original se hace con un ícono y pseudoelementos (`:after`, `:before`),
-  es un reto entretenido, sin embargo, no trates de enfocarte en esa parte desde
-  un inicio ya que no es el objetivo principal del reto :)
-
-* Puedes ver el [sitio original](https://blackrockdigital.github.io/startbootstrap-freelancer/)
-  para que te des una idea de como debe quedar.
-
-  > Nota: El sitio original tiene ciertos efectos y funcionalidades que
-están fuera del alcance de este reto. Enfócate en obtener la maquetación
-lo más parecido posible, usando lo aprendido en clase ;)
-
-## A tener en cuenta
-
-Este reto será evaluado sobre lo siguiente:
-
-* Pixel perfect (replicar el diseño con exactitud)
-* Nombramiento de clases, id, etc
-* Indentación
-* Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible
+La página original de esta maqueta es: https://blackrockdigital.github.io/startbootstrap-freelancer/

@@ -10,105 +10,136 @@
   <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:400,700" rel="stylesheet">
 
 </head>
-<a href="">
 
-  <body>
-    <nav>
-      <div class="allbuttons">
-        <a class="button1">START BOOTSTRAP</a>
+<body>
+  <!-- section Menu -->
+  <nav>
+      <ul>
+        <li><a href="#" class="logobutton">START BOOTSTRAP</a></li>
         <div class="rightbuttons">
-          <a class="button">PORTFOLIO</a>
-          <a class="button">ABOUT</a>
-          <a class="button">CONTACT</a>
+          <li><a href="#" class="button">PORTFOLIO</a></li>
+          <li><a href="#" class="button">ABOUT</a></li>
+          <li><a href="#" class="button">CONTACT</a></li>
         </div>
-      </div>
-    </nav>
-
-  <div class="start">
+      </ul>
+  </nav>
+  <!-- first section "start" -->
+  <section class="start">
     <div class="container">
       <div class="imgman"></div>
       <h1 class="stitle">START BOOTSTRAP</h1>
-        <div class="hrstar"><hr class="line1"><i class="fa fa-star" aria-hidden="true"></i><hr class="line2"></div>
-        <h3 class="description">Web Developer - Graphic Artist - User Experience Designer</h3>
+      <div class="hrstar">
+        <hr class="line1"><i class="fa fa-star" aria-hidden="true"></i><hr class="line2">
+      </div>
+      <h3 class="description">Web Developer - Graphic Artist - User Experience Designer</h3>
+    </div>
+  </section>
+  <!-- second section "portfolio" -->
+  <section class="portfolio">
+    <div class="container">
+      <h1 class="title2">PORTFOLIO</h1>
+      <div class="hrstar2">
+        <hr class="line3"><i class="fa fa-star" aria-hidden="true"></i><hr class="line4">
+      </div>
+      <div class="pimgs">
+        <div class="pimg1"><a href="#"></a></div>
+        <div class="pimg2"><a href="#"></a></div>
+        <div class="pimg3"><a href="#"></a></div>
+        <div class="pimg4"><a href="#"></a></div>
+        <div class="pimg5"><a href="#"></a></div>
+        <div class="pimg6"><a href="#"></a></div>
       </div>
     </div>
-  </div>
-
-    <div class="portfolio">
-      <div class="container">
-        <h1 class="title2">PORTFOLIO</h1>
-        <div class="hrstar2"><hr class="line3"><i class="fa fa-star" aria-hidden="true"></i><hr class="line4"></div>
-        <div class="pimgs">
-          <div class="pimg1"></div>
-          <div class="pimg2"></div>
-          <div class="pimg3"></div>
-          <div class="pimg4"></div>
-          <div class="pimg5"></div>
-          <div class="pimg6"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="about">
+  </section>
+  <!-- third section "about" -->
+  <section class="about">
     <div class="container">
       <h1 class="title">ABOUT</h1>
-      <div class="hrstar1"><hr class="line1"><i class="fa fa-star" aria-hidden="true"></i><hr class="line2">
+      <div class="hrstar1">
+        <hr class="line1"><i class="fa fa-star" aria-hidden="true"></i><hr class="line2">
       </div>
-    <div class="aboutxt">
-      <div class="p1">
+      <div class="aboutxt">
+        <div class="p1">
           Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
-      </div>
-      <div class="p2">
+        </div>
+        <div class="p2">
           Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
-      </div>
+        </div>
 
       </div>
       <div class="boton2"> <a class="button2"> <i class="fa fa-download" aria-hidden="true"></i> Download Theme
       </a></div>
     </div>
-  </div>
+  </section>
 
-  <div class="contact">
+  <!-- Section fourth "contact form"-->
+  <section class="contact">
     <div class="container">
       <h1 class="title">CONTACT ME</h1>
       <div class="hrstar2">
-        <hr class="line1">
-        <i class="fa fa-star" aria-hidden="true"></i>
+        <hr class="line3"><i class="fa fa-star" aria-hidden="true"></i><hr class="line4">
       </div>
-      <div class="formu">
-        <div class="name"><input type="text" size="15" maxlength="30" value="Nombre" name="nombre"></div>
-        <div class="email"><input type="text" size="15" maxlength="30" value="Email" name="email"></div>
-        <div class="phonenum"><input type="text" size="15" maxlength="30" value="Phone Number" name="phone"></div>
-        <div class="message"><textarea name="comentarios" rows="10" cols="30">Message.</textarea></div>
-      </div>
-      <a href="#" class="button3">Send</a>
-    </div>
-  </div>
 
+      <div class="form">
+        <form action="/sentmessage" method="post">
+          <div class="formtext">
+
+            <input type="name" placeholder="Nombre" name="name">
+          </div>
+          <div class="formtext">
+
+            <input type="email" placeholder="E-mail" name="email">
+          </div>
+          <div class="formtext">
+            <input type="phone" size="15" maxlength="11" placeholder="Phone Number" name="phone">
+          </div>
+
+          <div class="message">
+            <textarea name="comentarios"
+            placeholder="Message." rows="10"cols="30"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="button3"><a href="#" class="buttontext3">Send</a></div>
+    </div>
+
+  </section>
+
+<!-- Footer design -->
   <footer>
     <div class="container">
-      <div class="ctitles">
-        <h4>LOCATION</h4>
-        <h4>AROUND THE WEB</h4>
-        <h4>ABOUT FREELANCER</h4>
-      </div>
       <div class="adress">
-      <p>3481 Melrose Place Beverly Hills, CA 90210</p>
+        <h4>LOCATION</h4>
+        <p>3481 Melrose Place Beverly Hills, CA 90210</p>
       </div>
-      <div class="rs">
-        <div class="circle facebook">
-        <i class="fa fa-facebook" aria-hidden="true"></i>
+
+      <div class="rrss">
+        <h4>AROUND THE WEB</h4>
+        <div class="rs">
+          <a class="circle facebook" href="#">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a class="circle google" href="#">
+            <i class="fa fa-google-plus" aria-hidden="true"></i>
+          </a>
+          <a class="circle twitter" href="#">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a class="circle linkedin" href="#">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a class="circle dribble" href="#">
+            <i class="fa fa-dribbble" aria-hidden="true"></i>
+          </a>
         </div>
-        <div class="circle google"><i class="fa fa-google-plus" aria-hidden="true"></i>
-        </div>
-        <div class="circle twitter"><i class="fa fa-twitter" aria-hidden="true"></i></div>
-        <div class="circle linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
-        <div class="circle dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></div>
       </div>
-      <div class="descriptionflc">Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</div>
+
+      <div class="descriptionaf">
+        <h4>ABOUT FREELANCER</h4>
+        <p>Freelance is a free to use, open source Bootstrap theme created by <a class="sb" href="#">Start Bootstrap</a>.</p>
+      </div>
     </div>
-    <div class="last">
+    <div class="copyright">
       Copyright © Your Website 2017
     </div>
   </footer>
